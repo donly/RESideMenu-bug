@@ -13,6 +13,8 @@
 		2B1C6AC01C4CFC5D00E9E204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C6ABE1C4CFC5D00E9E204 /* Main.storyboard */; };
 		2B1C6AC21C4CFC5D00E9E204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C6AC11C4CFC5D00E9E204 /* Assets.xcassets */; };
 		2B1C6AC51C4CFC5D00E9E204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1C6AC31C4CFC5D00E9E204 /* LaunchScreen.storyboard */; };
+		2B1C6ACE1C4D01FB00E9E204 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C6ACD1C4D01FB00E9E204 /* MainViewController.m */; };
+		2B1C6AD11C4D04CA00E9E204 /* LastTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C6AD01C4D04CA00E9E204 /* LastTabViewController.m */; };
 		EDBAA6F8CB177608915965A0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF5560CCC703A23A21B4EB /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,10 @@
 		2B1C6AC11C4CFC5D00E9E204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1C6AC41C4CFC5D00E9E204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1C6AC61C4CFC5D00E9E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1C6ACC1C4D01FB00E9E204 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2B1C6ACD1C4D01FB00E9E204 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2B1C6ACF1C4D04CA00E9E204 /* LastTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastTabViewController.h; sourceTree = "<group>"; };
+		2B1C6AD01C4D04CA00E9E204 /* LastTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastTabViewController.m; sourceTree = "<group>"; };
 		44BF5560CCC703A23A21B4EB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87058BF64FC59785FBAEB887 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +75,11 @@
 				2B1C6AB91C4CFC5D00E9E204 /* AppDelegate.m */,
 				2B1C6ABB1C4CFC5D00E9E204 /* ViewController.h */,
 				2B1C6ABC1C4CFC5D00E9E204 /* ViewController.m */,
+				2B1C6ACC1C4D01FB00E9E204 /* MainViewController.h */,
+				2B1C6ACD1C4D01FB00E9E204 /* MainViewController.m */,
 				2B1C6ABE1C4CFC5D00E9E204 /* Main.storyboard */,
+				2B1C6ACF1C4D04CA00E9E204 /* LastTabViewController.h */,
+				2B1C6AD01C4D04CA00E9E204 /* LastTabViewController.m */,
 				2B1C6AC11C4CFC5D00E9E204 /* Assets.xcassets */,
 				2B1C6AC31C4CFC5D00E9E204 /* LaunchScreen.storyboard */,
 				2B1C6AC61C4CFC5D00E9E204 /* Info.plist */,
@@ -224,9 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1C6AD11C4D04CA00E9E204 /* LastTabViewController.m in Sources */,
 				2B1C6ABD1C4CFC5D00E9E204 /* ViewController.m in Sources */,
 				2B1C6ABA1C4CFC5D00E9E204 /* AppDelegate.m in Sources */,
 				2B1C6AB71C4CFC5D00E9E204 /* main.m in Sources */,
+				2B1C6ACE1C4D01FB00E9E204 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

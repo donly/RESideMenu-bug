@@ -38,7 +38,7 @@
     self.contentViewShadowOpacity = 0.6;
     self.contentViewShadowRadius = 12;
     self.contentViewShadowEnabled = YES;
-    self.panFromEdge = NO;
+    self.panFromEdge = TRUE;
 }
 
 - (BOOL)prefersStatusBarHidden {
